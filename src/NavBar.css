@@ -1,0 +1,41 @@
+.NavBar-nav {
+    padding: 10px;
+    background-color: red;
+}
+
+.NavBar-NavLink {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: darkred;
+    color:blanchedalmond;
+}
+
+.NavBar-NavLink.active {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:crimson;
+    color:darkred;
+}
+
+.NavBar-NavLink.active:hover {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:crimson;
+    color:red;
+    box-shadow: 0px 0px 0 rgba(0,0,0,.0);
+}
+
+.NavBar-NavLink:hover {
+    box-shadow: 1px 1px 0 rgba(0,0,0,.6);
+    padding: 11px;
+    text-decoration: none;
+    font-size: 20px;
+    color: darkred;
+    background-color:blanchedalmond;
+}
